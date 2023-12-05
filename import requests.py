@@ -57,7 +57,7 @@ def generate_seo_audit_report(url):
         return report
 
 # Prompt user for URL input
-url_to_audit = input("Enter the URL to audit: ").strip()
+url_to_audit = input("Enter the URL to audit (e.g., https://example.com): ").strip()
 
 # Check if the URL is not empty
 if not url_to_audit:
